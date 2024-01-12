@@ -1,0 +1,121 @@
+/* Add your custom styles here */
+
+body {
+    padding-top: 56px; /* Adjusted for the fixed navbar */
+  }
+  
+  .jumbotron {
+    background-color: #bd1919;
+    color: #380fa0;
+  }
+ 
+  /* Add more styles as needed */
+/* Default styles */
+/* Services Section */
+#services {
+  background-color: #a07311; /* Light background color */
+  padding: 80px 0; /* Adjust padding as needed */
+}
+
+#services h2 {
+  color: #dae5f0; /* Dark text color for the heading */
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #0a0f13; /* Light border color */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.card-img-top {
+  max-height: 200px; /* Limit the maximum height of the card image */
+  object-fit: cover; /* Ensure the image covers the entire card */
+}
+
+.card-title {
+  color: #007bff; /* Primary color for card titles */
+}
+
+.card-text {
+  color: #101314; /* Secondary color for card text */
+}
+/* Header Section */
+header.jumbotron {
+  background-color: #cfd2c1; /* Primary color for the header background */
+  color: #fff ; /* Text color for the header */
+  padding: 80px 0; /* Adjust padding as needed */
+}
+
+header.jumbotron h1.display-4 {
+  font-size: 2.5rem; /* Adjust the font size for the main heading */
+}
+
+header.jumbotron p.lead {
+  font-size: 1.25rem; /* Adjust the font size for the lead text */
+  margin-bottom: 30px; /* Add margin below the lead text */
+}
+
+header.jumbotron a.btn-primary {
+  background-color: #fff; /* Button background color */
+  color: #0f7733; /* Button text color */
+  border: 2px solid #007bff; /* Button border color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-decoration: none; /* Remove underlines from the button text */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for button hover effect */
+}
+
+header.jumbotron a.btn-primary:hover {
+  background-color: #fff; /* Button background color on hover */
+  color: #fff; /* Button text color on hover */
+}
+
+
+body {
+  background-color: #5394da; /* Replace with your desired background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Add additional styles for other elements as needed */
+
+
+/* Add additional styles for other elements as needed */
+
+/* Add additional styles for other elements as needed */
+#testimonials {
+  background-color: #a8cd20; /* Replace with your desired background color */
+  padding: 60px 0; /* Adjust the padding as needed */
+}
+
+.carousel-inner {
+  border-radius: 10px; /* Adds a rounded corner to the carousel */
+  overflow: hidden; /* Ensures content inside the carousel doesn't overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle box shadow */
+}
+
+.carousel-item {
+  text-align: center; /* Centers the text inside carousel items */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.carousel-item p {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Adds space between paragraphs */
+}
+
+.carousel-item .font-weight-bold {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+/* Custom background class with a background image */
+.custom-background {
+  background-image: url('vet.jpg');
+  background-size: cover;
+   /* Ensure the background image covers the entire container */
+   background-position:center center; 
+ 
+   color: #fff; /* Set text color to be readable on the background image */
+}
